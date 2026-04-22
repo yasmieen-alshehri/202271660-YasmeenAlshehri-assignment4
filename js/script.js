@@ -158,6 +158,14 @@ if (projectSearch) {
 
 if (sortProjects) {
   sortProjects.addEventListener("change", applyProjectFilters);
+
+  sortProjects.addEventListener("change", () => {
+    sortProjects.classList.add("changed");
+
+    setTimeout(() => {
+      sortProjects.classList.remove("changed");
+    }, 300);
+  });
 }
 
 const detailButtons = document.querySelectorAll(".details-btn");
