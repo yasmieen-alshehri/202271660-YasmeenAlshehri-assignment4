@@ -396,26 +396,6 @@ main {
   transition: 0.3s ease;
 }
 
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.chip {
-  padding: 8px 12px;
-  color: var(--muted);
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  transition: all 0.25s ease;
-}
-
-.chip:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
-}
-
 .fade-up {
   opacity: 0;
   transform: translateY(40px);
@@ -425,6 +405,50 @@ main {
 .fade-up.show {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* =========================
+   SKILLS
+========================= */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 130px;
+  padding: 20px 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  text-align: center;
+  color: var(--text);
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: #d7bfd7;
+}
+
+.skill-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.skill-item span {
+  font-size: 15px;
+  line-height: 1.4;
 }
 
 /* =========================
@@ -528,6 +552,7 @@ main {
   position: relative;
   overflow: hidden;
   border-radius: 12px;
+  margin-bottom: 10px;
 }
 
 .project-thumb {
@@ -559,6 +584,18 @@ main {
   opacity: 1;
 }
 
+.project-card h3 {
+  margin-top: 14px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+#projects .card p:not(.mini-guide) {
+  color: var(--muted);
+}
+
 .project-details {
   max-height: 0;
   overflow: hidden;
@@ -580,17 +617,6 @@ main {
 .project-card.expanded .details-btn {
   background: var(--secondary);
   color: #fff;
-}
-
-#projects .card h3 {
-  margin-bottom: 10px;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-#projects .card p:not(.mini-guide) {
-  color: var(--muted);
 }
 
 .project-list {
@@ -1165,93 +1191,18 @@ textarea {
   .activity-list li {
     font-size: 16px;
   }
-}
 
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 14px;
-  margin-top: 14px;
-}
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 
-.skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 110px;
-  padding: 18px 14px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  text-align: center;
-  color: var(--text);
-  font-weight: 600;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-}
+  .skill-item {
+    min-height: 115px;
+    padding: 16px 12px;
+  }
 
-.skill-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: #d7bfd7;
-}
-
-.skill-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  background: rgba(199, 163, 201, 0.16);
-  color: var(--secondary);
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.skill-item span:last-child {
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
-  margin-top: 14px;
-}
-
-.skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  min-height: 130px;
-  padding: 20px 16px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  text-align: center;
-  color: var(--text);
-  font-weight: 700;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-}
-
-.skill-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: #d7bfd7;
-}
-
-.skill-logo {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-
-.skill-item span {
-  font-size: 15px;
-  line-height: 1.4;
+  .skill-logo {
+    width: 36px;
+    height: 36px;
+  }
 }
