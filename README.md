@@ -22,7 +22,7 @@ It showcases my projects, skills, and interactive features in a clean, responsiv
 - Image click-to-enlarge feature
 - Active navigation highlighting on scroll
 - Contact form with input validation (empty fields, email format, minimum message length)
-- Developer quote fetched from the Advice Slip public API
+- Inspirational quote fetched from a public API
 - Timer showing how long the user stays on the website
 - Confetti animation on successful form submission
 - Enhanced UI/UX with interactive elements and visual feedback
@@ -34,7 +34,7 @@ It showcases my projects, skills, and interactive features in a clean, responsiv
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries, CSS Variables)
 - JavaScript (DOM manipulation, filtering, sorting, validation, API integration, state management)
-- Advice Slip API
+- Public Quote API (for inspirational quotes)
 - Canvas Confetti (for animation effects)
 - Lighthouse (for performance testing)
 

@@ -4,7 +4,7 @@
 - HTML5 for website structure
 - CSS3 for styling, layout, and responsive design
 - JavaScript for interactivity, dynamic features, and application logic
-- Advice Slip API for fetching a developer quote
+- Public Quote API for fetching inspirational quotes
 - Lighthouse for performance testing
 - Canvas Confetti (for animation effects)
 
@@ -59,9 +59,9 @@ Several interactive features were implemented using JavaScript:
 ---
 
 ## 5. API Integration
-- Integrated the **Advice Slip API** to display a developer quote in the contact section.
+- Integrated a public quote API to display an inspirational quote in the contact section.
 - Used the JavaScript `fetch()` function to retrieve data from the API.
-- Implemented error handling to display a user-friendly message if the API request fails.
+- Implemented error handling to gracefully display a user-friendly message if the API request fails.
 
 ---
 
