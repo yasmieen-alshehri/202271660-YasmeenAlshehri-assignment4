@@ -67,7 +67,9 @@
 - Better understanding of responsive design and layout debugging  
 - Learned how to implement interactive UI features  
 - Developed ability to evaluate and refine AI-generated solutions  
-- Improved ability to make design and performance trade-offs (e.g., choosing lightweight animations over heavy ones)  
+- Improved ability to make design and performance trade-offs (e.g., choosing lightweight animations over heavy ones)
+- Learned how to connect UI events (form submission) with dynamic visual feedback using JavaScript
+- Learned how to deploy a website using GitHub Pages. 
 
 ---
 

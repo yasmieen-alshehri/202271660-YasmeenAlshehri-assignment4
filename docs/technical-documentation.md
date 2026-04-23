@@ -1,4 +1,4 @@
-# Technical Documentation – Assignment 3
+# Technical Documentation – Assignment 4
 
 ## 1. Technologies Used
 - HTML5 for website structure
@@ -6,15 +6,29 @@
 - JavaScript for interactivity, dynamic features, and application logic
 - Advice Slip API for fetching a developer quote
 - Lighthouse for performance testing
+- Canvas Confetti (for animation effects)
 
 ---
 
 ## 2. Project Structure
-- index.html – Main structure of the portfolio website
-- css/styles.css – Styling, layout rules, responsive design, and visual effects
-- js/script.js – JavaScript logic for interactive features and dynamic behavior
-- assets/images – Images used in the projects section
-- docs – Documentation files including AI usage and technical documentation
+202271660-YasmeenAlshehri-assignment4/
+├── README.md
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+│       ├── skills/
+│       └── (project images)
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+├── presentation/
+│   ├── slides.pdf
+│   └── demo-video.mp4
+└── .gitignore
 
 ---
 
@@ -40,6 +54,7 @@ Several interactive features were implemented using JavaScript:
 - Active navigation highlighting based on scroll position.
 - A fade-up animation is used for the About section when it becomes visible during scrolling.
 - A site timer that tracks how long the user stays on the website.
+- Confetti animation triggered on successful form submission to enhance user feedback.
 
 ---
 
@@ -85,6 +100,9 @@ These features demonstrate step-by-step logic beyond simple one-click actions.
 - Added hover guidance over project preview images.
 - Enhanced existing labels such as “Academic Project” and “Extracurricular” by adding explanatory tooltips.
 - Added image enlargement support for better project preview interaction.
+- Redesigned the activities section by enhancing activity cards with a club logo and tool/skill indicators.
+- Improved visual feedback by making the interface more dynamic and interactive.
+- Added a confetti animation after form submission to provide a more engaging user experience.
 
 ---
 
@@ -101,6 +119,7 @@ These features demonstrate step-by-step logic beyond simple one-click actions.
 - Organized CSS and JavaScript into clearly structured sections for maintainability and efficiency.
 - Tested the website using Lighthouse to evaluate performance and loading speed.
 - The website achieved good Lighthouse results in performance, accessibility, best practices, and SEO.
+- Used a lightweight animation library (canvas-confetti) to ensure performance is not affected.
 
 ---
 
@@ -108,5 +127,6 @@ These features demonstrate step-by-step logic beyond simple one-click actions.
 - Organized CSS into clearly labeled sections.
 - Added comments to HTML, CSS, and JavaScript for readability.
 - Kept file structure simple and consistent.
-- Refactored code after adding Assignment 3 features to improve structure.
+- Refactored code to improve structure and remove duplication  
 - Verified that the project runs without console errors.
+- Improved UI component consistency after adding new features  
