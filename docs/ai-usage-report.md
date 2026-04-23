@@ -17,7 +17,8 @@
 - Improved the overall portfolio interactivity and made it feel more dynamic through UI refinements and better visual feedback  
 - Organized and refined project documentations (structure and clarity)  
 - Learned how to deploy the project using GitHub Pages (branch setup and live site verification)  
-- Added a creative feature: confetti animation on successful form submission using guidance from Claude, ensuring it was lightweight and did not affect performance  
+- Added a creative feature: confetti animation on successful form submission using guidance from Claude, ensuring it was lightweight and did not affect performance
+- Updated the quote API to improve content relevance and consistency with the website theme
 
 ---
 
@@ -29,7 +30,8 @@
 - "Enhance skills section layout with icons and better spacing"
 - "What creative or interactive feature can I add to my portfolio to make it more engaging without affecting performance?"
 - "Add a lightweight confetti animation on form submission without affecting performance"   
-- "How to deploy my website using GitHub Pages"  
+- "How to deploy my website using GitHub Pages"
+- "Suggest a quote API that aligns with my portfolio theme"
 
 ---
 
