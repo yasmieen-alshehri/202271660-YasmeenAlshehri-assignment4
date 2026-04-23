@@ -73,5 +73,8 @@ It showcases my projects, skills, and interactive features in a clean, responsiv
 
 ## AI Usage
 
-AI tools were used to assist in improving the project by adding advanced features, refining logic, debugging issues, and enhancing code structure.  
+- Used ChatGPT for debugging, improving code structure, and enhancing UI/UX  
+- Used Claude to implement the confetti animation feature  
+- AI assisted in refining documentation and solving specific development issues  
+
 Full details are available in `docs/ai-usage-report.md`.
