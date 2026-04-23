@@ -75,7 +75,8 @@
 
 ## Responsible Use
 
-- Reviewed and modified all AI-generated code before using it  
+- Reviewed and modified all AI-generated code before using it
+- Some features were initially generated with AI, but were reviewed, modified, and integrated into the project to fit the design and requirements
 - Avoided copying full solutions without understanding  
 - Ensured final design and implementation decisions were my own  
 - Used AI only as a support tool, not as a replacement  
