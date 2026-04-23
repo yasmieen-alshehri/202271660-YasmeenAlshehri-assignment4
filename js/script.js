@@ -224,9 +224,9 @@ window.addEventListener("scroll", () => {
 async function loadQuote() {
   const quoteBox = document.getElementById("devQuote");
   try {
-    const res = await fetch("https://api.quotable.io/quotes/random?tags=technology|inspirational");
+    const res = await fetch("https://quoteslate.vercel.app/api/quotes/random");
     const data = await res.json();
-    quoteBox.textContent = `"${data[0].content}" — ${data[0].author}`;
+    quoteBox.textContent = `"${data.quote}" — ${data.author}`;
   } catch (error) {
     quoteBox.textContent = '"Stay curious, keep building." — Unknown';
   }
