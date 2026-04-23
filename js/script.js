@@ -223,15 +223,12 @@ window.addEventListener("scroll", () => {
 // Fetch a developer quote from a public API and display it in the contact section
 async function loadQuote() {
   const quoteBox = document.getElementById("devQuote");
-
   try {
-    const res = await fetch("https://api.adviceslip.com/advice");
+    const res = await fetch("https://api.quotable.io/quotes/random?tags=technology|inspirational");
     const data = await res.json();
-
-    quoteBox.textContent = data.slip.advice;
-
+    quoteBox.textContent = `"${data[0].content}" — ${data[0].author}`;
   } catch (error) {
-    quoteBox.textContent = "Sorry, the advice could not be loaded.";
+    quoteBox.textContent = '"Stay curious, keep building." — Unknown';
   }
 }
 
