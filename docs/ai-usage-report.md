@@ -1,86 +1,83 @@
-# AI Usage Report – Assignment 3
+# AI Usage Report – Assignment 4
 
 ## Tools Used
-- ChatGPT
+- ChatGPT  
+- Claude
 
 ---
 
 ## How I Used AI
 
-- Asked for guidance on implementing advanced features such as project filtering, sorting, and form validation.
-- Used AI to debug JavaScript and CSS issues during development.
-- Requested explanations to better understand concepts like state management, responsiveness, and API integration.
-- Used AI to improve user experience without affecting the visual design.
-- Asked for help refining documentation such as the README and technical documentation.
-- Refined prompts multiple times to get more accurate and relevant results.
+- Used AI as a support tool to solve specific issues rather than generating the full project  
+- Fixed a mobile overflow issue in project cards by adjusting grid layout and image sizing  
+- Reorganized CSS into clear sections and improved consistency using variables  
+- Enhanced UI/UX through hover effects, animations, and improved button styling  
+- Improved the skills section by adding logos and refining layout and spacing  
+- Enhanced the activities section by redesigning the activity cards, adding a club logo, and including tools/skills used, making the section more informative and visually engaging  
+- Improved the overall portfolio interactivity and made it feel more dynamic through UI refinements and better visual feedback  
+- Organized and refined project documentations (structure and clarity)  
+- Learned how to deploy the project using GitHub Pages (branch setup and live site verification)  
+- Added a creative feature: confetti animation on successful form submission using guidance from Claude, ensuring it was lightweight and did not affect performance  
 
 ---
 
 ## Sample Prompts
 
-Here are examples of prompts I used while working on this project:
-
-1. "How can I improve the user experience of a portfolio website by adding simple and clear user guidance without cluttering the design?"
-
-2. "How can I implement a click-to-enlarge image feature using HTML, CSS, and JavaScript for better user interaction?"
-
-3. "Suggest a clean and minimal way to show hints like 'Tap image to enlarge' in a modern portfolio design."
-
-4. "Why is my CSS not applying to a specific element, and how can I fix style conflicts between selectors?"
-
-5. "How can I design responsive interactions that work well on both desktop (hover) and mobile (tap)?"
-
-6. "How can I add project sorting (A–Z and Z–A) using JavaScript?"
-
-7. "How do I validate a contact form with multiple conditions such as empty fields, valid email, and minimum message length?"
-
-8. "How can I create a timer that shows how long a visitor stays on the website?"
+- "Fix project card overflow issue on mobile where the second image is not fully visible"
+- "How can I clean and organize my CSS file into sections? what are the best organizing sections?"  
+- "Improve button hover effects and transitions"  
+- "Enhance skills section layout with icons and better spacing"
+- "What creative or interactive feature can I add to my portfolio to make it more engaging without affecting performance?"
+- "Add a lightweight confetti animation on form submission without affecting performance"   
+- "How to deploy my website using GitHub Pages"  
 
 ---
 
 ## Benefits
 
-- Helped me implement specific features such as project sorting, image enlargement, and a site timer more efficiently.
-- Improved my understanding of how to combine HTML validation with JavaScript for more advanced form validation.
-- Helped me debug issues related to CSS selector conflicts and JavaScript logic.
-- Improved my understanding of responsive interaction design (hover vs tap).
-- Helped me structure and organize my code more clearly.
+- Quickly solved layout issues (overflow and responsiveness)  
+- Improved UI design with better spacing, transitions, and interactions  
+- Added interactive features like animations and confetti  
+- Learned better CSS structuring and consistency practices  
+- Improved documentation clarity and organization  
+- Gained understanding of deployment and making the site publicly accessible  
+- Helped me make better design decisions by evaluating different UI approaches  
 
 ---
 
 ## Challenges
 
-- Some AI suggestions for project sorting did not work correctly at first, and I had to debug the logic to ensure the cards were reordered properly.
-- I faced issues with CSS styles not applying due to selector conflicts, and I had to adjust specificity to fix them.
-- While improving the contact form, I enhanced the default HTML validation by adding a custom check for minimum message length.
+- Some AI suggestions were too general and required modification  
+- Some animations were too heavy and affected performance  
+- Needed testing to ensure changes did not break responsive layout  
 
 ---
 
 ## Risks of AI Usage
 
-- AI-generated solutions for features like sorting and validation may not fully work as expected and require testing and debugging.
-- Some UI suggestions may not align with the existing design and need adjustment to avoid clutter.
-- Relying on AI without understanding the logic can lead to incorrect implementations.
-- AI responses sometimes provide general solutions that must be customized to fit the specific project structure.
+- Risk of over-reliance on AI instead of independent problem-solving  
+- Some generated code may not be optimized for performance  
+- Risk of copying solutions without full understanding  
 
 ---
 
 ## Learning Outcomes
 
-- Improved my understanding of JavaScript interactivity and DOM manipulation.
-- Learned how to implement filtering, sorting, validation, and timer logic.
-- Gained experience working with APIs using the fetch function.
-- Better understanding of responsive interaction design for desktop and mobile.
-- Improved debugging and problem-solving skills.
+- Improved CSS organization and code structure  
+- Better understanding of responsive design and layout debugging  
+- Learned how to implement interactive UI features  
+- Developed ability to evaluate and refine AI-generated solutions  
+- Improved ability to make design and performance trade-offs (e.g., choosing lightweight animations over heavy ones)  
 
 ---
 
 ## Responsible Use
 
-- AI was used as a support tool, not to replace my own work.
-- I reviewed, tested, and modified all AI-generated suggestions.
-- I ensured that I understood the code before including it in my project.
-- I verified all AI-generated content before using it.
-- The final implementation reflects my own learning and effort.
+- Reviewed and modified all AI-generated code before using it  
+- Avoided copying full solutions without understanding  
+- Ensured final design and implementation decisions were my own  
+- Used AI only as a support tool, not as a replacement  
 
 ---
+
+- AI was used as an assistive tool to enhance productivity and learning, while all final design and implementation decisions were made independently.
