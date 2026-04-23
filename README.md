@@ -1,7 +1,11 @@
-# Assignment 3 – Personal Portfolio
+# Personal Portfolio Website
+
+## Live Demo
+[View Website](https://yasmieen-alshehri.github.io/202271660-YasmeenAlshehri-assignment4/)
+Access the deployed version of the portfolio website here.
 
 This project is a responsive personal portfolio website built using HTML, CSS, and JavaScript.  
-It serves as the foundation for my professional portfolio.
+It showcases my projects, skills, and interactive features in a clean, responsive, and dynamic design.
 
 ---
 
@@ -20,6 +24,8 @@ It serves as the foundation for my professional portfolio.
 - Contact form with input validation (empty fields, email format, minimum message length)
 - Developer quote fetched from the Advice Slip public API
 - Timer showing how long the user stays on the website
+- Confetti animation on successful form submission
+- Enhanced UI/UX with interactive elements and visual feedback
 
 ---
 
@@ -29,13 +35,15 @@ It serves as the foundation for my professional portfolio.
 - CSS3 (Flexbox, Grid, Media Queries, CSS Variables)
 - JavaScript (DOM manipulation, filtering, sorting, validation, API integration, state management)
 - Advice Slip API
+- Canvas Confetti (for animation effects)
 - Lighthouse (for performance testing)
 
 ## Project Structure
 
+
 ```
-202271660-YasmeenAlshehri-assignment3/
-│
+202271660-YasmeenAlshehri-assignment4/
+├── README.md
 ├── index.html
 ├── css/
 │   └── styles.css
@@ -43,16 +51,17 @@ It serves as the foundation for my professional portfolio.
 │   └── script.js
 ├── assets/
 │   └── images/
+│       ├── skills/
+│       └── (project images)
 ├── docs/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
-├── .gitignore
-└── README.md
+├── presentation/
+│   ├── slides.pdf
+│   └── demo-video.mp4
+└── .gitignore
 
 ```
-
----
-
 
 ## How to Run the Project
 
@@ -66,6 +75,3 @@ It serves as the foundation for my professional portfolio.
 
 AI tools were used to assist in improving the project by adding advanced features, refining logic, debugging issues, and enhancing code structure.  
 Full details are available in `docs/ai-usage-report.md`.
-
----
-
