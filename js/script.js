@@ -36,39 +36,50 @@ const form = document.getElementById("contactForm");
 
 if (form) {
   form.addEventListener("submit", (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  const nameInput = form.querySelector('input[type="text"]');
-  const emailInput = form.querySelector('input[type="email"]');
-  const messageInput = form.querySelector("textarea");
-  const formMessage = document.getElementById("formMessage");
+    const nameInput = form.querySelector('input[type="text"]');
+    const emailInput = form.querySelector('input[type="email"]');
+    const messageInput = form.querySelector("textarea");
+    const formMessage = document.getElementById("formMessage");
 
-  const name = nameInput.value.trim();
-  const email = emailInput.value.trim();
-  const message = messageInput.value.trim();
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    const message = messageInput.value.trim();
 
-  if (!name || !email || !message) {
-    formMessage.textContent = "Please fill in all fields.";
-    formMessage.style.color = "red";
-    return;
-  }
+    if (!name || !email || !message) {
+      formMessage.textContent = "Please fill in all fields.";
+      formMessage.style.color = "red";
+      return;
+    }
 
-  if (!email.includes("@") || !email.includes(".")) {
-    formMessage.textContent = "Please enter a valid email address.";
-    formMessage.style.color = "red";
-    return;
-  }
+    if (!email.includes("@") || !email.includes(".")) {
+      formMessage.textContent = "Please enter a valid email address.";
+      formMessage.style.color = "red";
+      return;
+    }
 
-  if (message.length < 10) {
-    formMessage.textContent = "Message must be at least 10 characters long.";
-    formMessage.style.color = "red";
-    return;
-  }
+    if (message.length < 10) {
+      formMessage.textContent = "Message must be at least 10 characters long.";
+      formMessage.style.color = "red";
+      return;
+    }
 
-  formMessage.textContent = "Message sent successfully!";
-  formMessage.style.color = "green";
-  form.reset();
-});
+    formMessage.textContent = "Message sent successfully!";
+    formMessage.style.color = "green";
+    form.reset();
+
+    // 🎉 Confetti
+    const CONFETTI_COLORS = ['#000000', '#c7a3c9', '#9b7bbd', '#e7bfd6', '#0f0a1a', '#ffffff'];
+    const opts = { colors: CONFETTI_COLORS, zIndex: 9999 };
+
+    confetti({ ...opts, particleCount: 80, spread: 80, origin: { x: 0.3, y: 0.6 } });
+    confetti({ ...opts, particleCount: 80, spread: 80, origin: { x: 0.7, y: 0.6 } });
+
+    setTimeout(() => {
+      confetti({ ...opts, particleCount: 40, spread: 120, decay: 0.91, scalar: 1.2, origin: { x: 0.5, y: 0.5 } });
+    }, 250);
+  });
 }
 
 // Fade-up animation
